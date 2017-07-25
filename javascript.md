@@ -19,7 +19,7 @@
 
 ```javascript
 // return Object
-function foo1() {
+function foo1() {ㅍ
     return {
         bar: 'hello'
     };
@@ -33,6 +33,19 @@ function foo2() {
     };
 }
 ```
+4. Naming Rule 은 다음과 같다. 
+
+```
+함수 : functionNamesLikeThis
+변수 : variableNamesLikeThis
+클라스 : ClassNamesLikeThis
+ENUM : EnumNamesLikeThis
+메소드 : methodNamesLikeThis 
+상수 : CONSTANT_VALUES_LIKE_THIS 
+Namespace :foo.namespaceNamesLikeThis.bar 
+파일 : filenameslikethis.js
+```
+
 
 # Comments
 
