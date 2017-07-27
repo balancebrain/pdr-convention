@@ -43,7 +43,7 @@
     메소드 : methodNamesLikeThis
     상수 : CONSTANT_VALUES_LIKE_THIS
     Namespace : foo.namespaceNamesLikeThis.bar
-    파일 : filenameslikethis.js
+    파일 : filenameslikethis.js or filenames-like_this.js
     ```
 
 
