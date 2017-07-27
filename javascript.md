@@ -19,7 +19,7 @@
 
     ```javascript
     // return Object
-    function foo1() {ㅍ
+    function foo1() {
         return {
             bar: 'hello'
         };
