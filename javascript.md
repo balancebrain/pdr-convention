@@ -17,22 +17,35 @@
 
 0. 모든 statement 뒤에는 semicolon (;) 을 붙인다. 아래와 같이 다른 결과가 나오는 것을 방지 할 수 있다.
 
-```javascript
-// return Object
-function foo1() {
-    return {
-        bar: 'hello'
-    };
-}
+    ```javascript
+    // return Object
+    function foo1() {
+        return {
+            bar: 'hello'
+        };
+    }
 
-// return undefined
-function foo2() {
-    return
-    {
-        bar: 'hello'
-    };
-}
-```
+    // return undefined
+    function foo2() {
+        return
+        {
+            bar: 'hello'
+        };
+    }
+    ```
+0. Naming Rule 은 다음과 같다. 
+
+    ```
+    함수 : functionNamesLikeThis
+    변수 : variableNamesLikeThis
+    클라스 : ClassNamesLikeThis
+    ENUM : EnumNamesLikeThis
+    메소드 : methodNamesLikeThis
+    상수 : CONSTANT_VALUES_LIKE_THIS
+    Namespace : foo.namespaceNamesLikeThis.bar
+    파일 : filenameslikethis.js or filenames-like_this.js
+    ```
+
 
 # Comments
 
