@@ -50,6 +50,10 @@ README.md
 - src/routes/
     - 각 API URL은 여기에 파일로 나타납니다.
     - API Parameter 유효성을 검사하고 컨트롤러에 넘겨줍니다.
+- src/services/
+    - controller의 로직을 분리한 모듈 클래스입니다.
+    - controller의 로직이 길어지거나 재사용 필요가 있는 경우 별도로 service로 분리하여 구현합니다.
+    - controller구조에 맞게 하위 폴더를 생성합니다. (필수는 아님)
 - src/utils/
     - 특정 클래스에 종속되지 않는 클래스입니다.
     - 배열을 특정 크기로 잘라 주거나 맵에서 값으로 키 값을 찾아주는 클래스 등
