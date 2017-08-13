@@ -19,7 +19,7 @@ src/
     routes/
     util/
 test/
-.gitginore
+.gitignore
 index.js
 package.json
 README.md
